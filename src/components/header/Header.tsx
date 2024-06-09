@@ -6,9 +6,9 @@ function Header() {
         <div className="header section__padding" id="home">
             <div className="header-content">
                 <h1 className="gradient__text">
-                    "the imposter is sus"
+                    "she sells seashells by the seashore."
                 </h1>
-                <p>amogus</p>
+                <p>-unknown</p>
             </div>
 
             <div className="header-image">

@@ -1,4 +1,4 @@
-import { Navbar, Header, About, Footer } from './components';
+import { Navbar, Header, About, Footer, Portfolio } from './components';
 import './App.css';
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
                 <Navbar />
                 <Header />
                 <About />
+                <Portfolio />
                 <Footer />
             </div>
         </div>
