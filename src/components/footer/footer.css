@@ -1,0 +1,9 @@
+.about {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+    background: linear-gradient(90deg, rgba(7,0,120,1) 0%, rgba(9,9,121,1) 35%, rgba(0,112,135,1) 100%);
+}

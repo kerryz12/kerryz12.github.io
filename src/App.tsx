@@ -1,4 +1,4 @@
-import { Navbar } from './components';
+import { Navbar, Header, About, Footer } from './components';
 import './App.css';
 
 function App() {
@@ -6,6 +6,9 @@ function App() {
         <div className="App">
             <div className="gradient__bg">
                 <Navbar />
+                <Header />
+                <About />
+                <Footer />
             </div>
         </div>
     )

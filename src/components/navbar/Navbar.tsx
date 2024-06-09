@@ -13,6 +13,23 @@ function Navbar() {
                     <p><a href="#portfolio">portfolio</a></p>
                 </div>
             </div>
+
+            {/*<div className="navbar-menu">
+                {toggleMenu
+                ? <RiCloseLine color="#fff" sizes={27} onClick={() => setToggleMenu(false)} />
+                : <RiMenu3Line color="#fff" sizes={27} onClick={() => setToggleMenu(false)} />
+                }
+                {toggleMenu && (
+                    <div className="navbar-menu_container scale-up-center">
+                        <div className="navbar-menu_container">
+                            <p><a href="#home">home</a></p>
+                            <p><a href="#about">about</a></p>
+                            <p><a href="#portfolio">portfolio</a></p>
+                        </div>
+                    </div>
+                )}
+            </div>*/}
+            
         </div>
     )
 }
