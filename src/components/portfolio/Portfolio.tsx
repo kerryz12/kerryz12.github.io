@@ -7,7 +7,7 @@ const Portfolio = () => {
         <div className="portfolio section__padding">
             <div className="portfolio-heading-1" id="portfolio">
                 <h1 className="gradient__text">
-                    my portfolio
+                    you can find my portfolio below.
                 </h1>
                 <h1>
                     work experience

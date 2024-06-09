@@ -21,7 +21,7 @@
 
 .portfolio-heading-1 h1 {
     font: var(--font-family);
-    font-weight: 800;
+    font-weight: 1000;
     font-size: 62px;
     line-height: 75px;
     letter-spacing: -0.04em;
@@ -30,7 +30,7 @@
 
 .portfolio-heading-2 h1 {
     font: var(--font-family);
-    font-weight: 800;
+    font-weight: 1000;
     font-size: 62px;
     line-height: 75px;
     letter-spacing: -0.04em;
