@@ -4,7 +4,7 @@ const Article = ({imgUrl, date, company, title, body} : {imgUrl:any, date:any, c
     return (
         <div className="portfolio-container_article">
             <div className="portfolio-container_article-image">
-                {/*<img src={imgUrl} alt="image" />*/}
+                {<img src={imgUrl} alt="image" />}
             </div>
             <div className="portfolio-container_article-content">
                 <div>
