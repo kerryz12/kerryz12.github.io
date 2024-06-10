@@ -1,10 +1,10 @@
 import "./article.css"
 
-const Article = ({imgUrl, date, company, title, body} : {imgUrl:any, date:any, company:any, title:any, body:any}) => {
+const Article = ({url, imgUrl, date, company, title, body} : {url:any, imgUrl:any, date:any, company:any, title:any, body:any}) => {
     return (
         <div className="portfolio-container_article">
             <div className="portfolio-container_article-image">
-                {<img src={imgUrl} alt="image" />}
+                <a href={url}><img src={imgUrl} alt="link to the project!" /></a>
             </div>
             <div className="portfolio-container_article-content">
                 <div>
