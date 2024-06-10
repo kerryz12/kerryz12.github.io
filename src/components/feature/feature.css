@@ -35,7 +35,7 @@
 
 .features-container__feature-text {
     flex: 5;
-    max-width: 390px;
+    max-width: 500px;
     display: flex;
 }
 

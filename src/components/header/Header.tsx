@@ -8,14 +8,14 @@ function Header() {
             <div className="header-content">
                 <h1 className="gradient__text">
                     <TypeAnimation 
-                        sequence={["don't expect to find diamonds while mining at the wrong level."]}
+                        sequence={["\"if you have a task to do, it’s better to do it than to live with the fear of it.\""]}
                         cursor={true}
                         speed={60}
                     />
                 </h1>
                 <p>
                     <TypeAnimation
-                        sequence={[3000, "-unknown"]}
+                        sequence={[3500, "-joe abercrombie"]}
                         cursor={false}
                     />
                 </p>

@@ -7,7 +7,7 @@ const Portfolio = () => {
         <div className="portfolio section__padding">
             <div className="portfolio-heading-1" id="portfolio">
                 <h1 className="gradient__text">
-                    you can find my portfolio below.
+                    check out my portfolio below!
                 </h1>
                 <h1>
                     work experience
@@ -15,8 +15,19 @@ const Portfolio = () => {
             </div>
             <div className="portfolio-container-1">
                 <div className="portfolio-container_group-1">
-                    <Article imgUrl={tech} date="January - August 2022" company="Solidigm" title="Firmware Engineer Coop" body="Cras pretium libero aliquam eros feugiat, ac efficitur dolor commodo. Duis imperdiet egestas molestie. Phasellus porta, diam quis consectetur condimentum, mi quam hendrerit ligula, at iaculis massa quam vel augue. " />
-                    <Article imgUrl={tech} date="September - December 2022" company="Brave Technology" title="Firmware Engineer Coop" body="Nulla facilisi. Maecenas odio est, tristique in tortor a, mattis faucibus mauris. Phasellus volutpat, dolor nec pharetra ornare, magna eros blandit augue, sed feugiat enim tellus in mauris." />
+                    <Article imgUrl={tech} date="January - August 2022" company="Solidigm" title="Firmware Engineer Coop" 
+                        body="Developed C++ firmware for overdose detection sensors,
+                        such as by modifying firmware state machine. Worked
+                        with and improved Travis CI process by implementing
+                        code linting and unit tests. Communicated feedback
+                        from clients and team while improving product solution. " 
+                    />
+                    <Article imgUrl={tech} date="September - December 2022" company="Brave Technology" title="Firmware Engineer Coop" 
+                        body="Programmed firmware for solid state drives in C language, implementing technical specification. Made use
+                        of testing and formal development tools such as Jira
+                        and Git. Strengthened code comprehension and design
+                        skills while traversing large existing codebase." 
+                    />
                 </div>
             </div>
 
@@ -27,10 +38,32 @@ const Portfolio = () => {
             </div>
             <div className="portfolio-container-2">
                 <div className="portfolio-container_group-2">
-                    <Article imgUrl={tech} date="January 2023" company = "UBC" title="Student" body="Sed venenatis eleifend felis non interdum. Praesent luctus semper orci, sed fermentum massa fermentum quis. Integer eu dignissim lorem." />
-                    <Article imgUrl={tech} date="February 2023" company = "UBC" title="Student" body="Sed venenatis eleifend felis non interdum. Praesent luctus semper orci, sed fermentum massa fermentum quis. Integer eu dignissim lorem." />
-                    <Article imgUrl={tech} date="March 2023" company = "UBC" title="Student" body="Sed venenatis eleifend felis non interdum. Praesent luctus semper orci, sed fermentum massa fermentum quis. Integer eu dignissim lorem." />
-                    <Article imgUrl={tech} date="April 2023" company = "UBC" title="Student" body="Sed venenatis eleifend felis non interdum. Praesent luctus semper orci, sed fermentum massa fermentum quis. Integer eu dignissim lorem." />
+                    <Article imgUrl={tech} date="September 2023 - April 2024" company = "Wearable Health Monitor" title="UBC" 
+                        body="Developing algorithms and wireless communication
+                        systems for wrist-wearable device monitoring hospital
+                        patient vital signs. Designing reliable, expandable code
+                        from scratch interfacing with Raspberry Pi and sensors." 
+                    />
+                    <Article imgUrl={tech} date="March - April 2023" company = "Robotic Claw Gripper" title="UBC" 
+                        body="Utilized sensor systems to design PID control system for
+                        robotic claw. Interfaced C firmware with mechanical design for automatic and reliable operation, engineering
+                        both systems to work optimally with one another." 
+                    />
+                    <Article imgUrl={tech} date="January 2022" company = "DB Forum: Social Platform" title="nwHacks" 
+                        body="In 24 hours during nwHacks 2022 Hackathon, cooperatively implemented full-stack school-sorted forum website using Next.JS for front-end, and Java and MongoDB
+                        for back-end. Challenged problem-solving and software development skills while working under time limit" 
+                    />
+                    <Article imgUrl={tech} date="January 2021" company = "DB Manager: Assignment Tracker" title="nwHacks" 
+                        body="Created school assignment tracker application with
+                        team of four during nwHacks 2021 Hackathon in a 24-
+                        hour period. Use of Git and libraries such as Gson and
+                        JavaFX to collaboratively create Java GUI app." 
+                    />
+                    <Article imgUrl={tech} date="October - November 2020" company = "Simple RISC Machine" title="UBC" 
+                        body="Designed a RISC machine capable of executing ARMstyle instructions in Verilog. Enhanced debugging skills
+                        by debugging interactions between registers, CPU, RAM
+                        and other components using ModelSim." 
+                    />
                 </div>
             </div>
         </div>
