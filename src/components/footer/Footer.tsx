@@ -8,7 +8,7 @@ const Footer = () => {
                 <SocialIcon url="https://github.com/kerryz12" />
             </div>
             <div className="icon">
-                <SocialIcon url="https://linkedin.com/kerry-zhang-ee" />
+                <SocialIcon url="https://www.linkedin.com/in/kerry-zhang-ee/" />
             </div>
             <div className="icon">
                 <SocialIcon url="mailto:kerryzhang12@gmail.com" />
