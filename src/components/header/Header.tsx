@@ -1,14 +1,23 @@
 import "./header.css"
 import home from '../../assets/home-image.jpg'
+import { TypeAnimation } from 'react-type-animation';
 
 function Header() {
     return (
         <div className="header section__padding" id="home">
             <div className="header-content">
                 <h1 className="gradient__text">
-                    "she sells seashells by the seashore."
+                    <TypeAnimation 
+                        sequence={["don't expect to find diamonds while mining at the wrong level."]}
+                        cursor={true}
+                    />
                 </h1>
-                <p>-unknown</p>
+                <p>
+                    <TypeAnimation
+                        sequence={[5000, "-unknown"]}
+                        cursor={false}
+                    />
+                </p>
             </div>
 
             <div className="header-image">
