@@ -1,6 +1,6 @@
 import "./portfolio.css"
 import { Article } from '../../components'
-import { tech } from './imports'
+import { tech, job_header, zen_header } from './imports'
 
 const Portfolio = () => {
     return (
@@ -15,14 +15,14 @@ const Portfolio = () => {
             </div>
             <div className="portfolio-container-1">
                 <div className="portfolio-container_group-1">
-                    <Article url="" imgUrl={tech} date="January - August 2022" company="Solidigm" title="Firmware Engineer Coop" 
+                    <Article url="" imgUrl={job_header} date="January - August 2022" company="Solidigm" title="Firmware Engineer Coop" 
                         body="Developed C++ firmware for overdose detection sensors,
                         such as by modifying firmware state machine. Worked
                         with and improved Travis CI process by implementing
                         code linting and unit tests. Communicated feedback
                         from clients and team while improving product solution. " 
                     />
-                    <Article url="" imgUrl={tech} date="September - December 2022" company="Brave Technology" title="Firmware Engineer Coop" 
+                    <Article url="" imgUrl={job_header} date="September - December 2022" company="Brave Technology" title="Firmware Engineer Coop" 
                         body="Programmed firmware for solid state drives in C language, implementing technical specification. Made use
                         of testing and formal development tools such as Jira
                         and Git. Strengthened code comprehension and design
@@ -44,7 +44,7 @@ const Portfolio = () => {
                         patient vital signs. Designing reliable, expandable code
                         from scratch interfacing with Raspberry Pi and sensors." 
                     />
-                    <Article url="" imgUrl={tech} date="March - April 2023" company = "Robotic Claw Gripper" title="UBC" 
+                    <Article url="" imgUrl={zen_header} date="March - April 2023" company = "Robotic Claw Gripper" title="UBC" 
                         body="Utilized sensor systems to design PID control system for
                         robotic claw. Interfaced C firmware with mechanical design for automatic and reliable operation, engineering
                         both systems to work optimally with one another." 
@@ -59,7 +59,7 @@ const Portfolio = () => {
                         hour period. Use of Git and libraries such as Gson and
                         JavaFX to collaboratively create Java GUI app." 
                     />
-                    <Article url="" imgUrl={tech} date="October - November 2020" company = "Simple RISC Machine" title="UBC" 
+                    <Article url="" imgUrl={zen_header} date="October - November 2020" company = "Simple RISC Machine" title="UBC" 
                         body="Designed a RISC machine capable of executing ARMstyle instructions in Verilog. Enhanced debugging skills
                         by debugging interactions between registers, CPU, RAM
                         and other components using ModelSim." 

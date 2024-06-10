@@ -19,7 +19,7 @@
 }
 
 .navbar-links-logo p {
-    color: #fff;
+    color: #FFFFFF;
     font-family: var(--font-family);
     font-weight: 1000;
     font-size: 32px;
@@ -32,7 +32,7 @@
 .navbar-links_container p,
 .navbar-sign p,
 .navbar-menu_container p {
-    color: #fff;
+    color: #FFFFFF;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 24px;
