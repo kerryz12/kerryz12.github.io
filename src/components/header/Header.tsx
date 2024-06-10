@@ -10,11 +10,12 @@ function Header() {
                     <TypeAnimation 
                         sequence={["don't expect to find diamonds while mining at the wrong level."]}
                         cursor={true}
+                        speed={60}
                     />
                 </h1>
                 <p>
                     <TypeAnimation
-                        sequence={[5000, "-unknown"]}
+                        sequence={[3000, "-unknown"]}
                         cursor={false}
                     />
                 </p>
