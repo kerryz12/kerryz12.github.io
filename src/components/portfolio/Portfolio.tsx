@@ -1,6 +1,6 @@
 import "./portfolio.css"
 import { Article } from '../../components'
-import { tech, job_header, zen_header, solid, dbforum, dbmanager, healthmonitor } from './imports'
+import { job_header, solid, dbforum, dbmanager, healthmonitor } from './imports'
 
 const Portfolio = () => {
     return (
