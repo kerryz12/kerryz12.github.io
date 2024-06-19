@@ -13,6 +13,9 @@ const Footer = () => {
             <div className="icon">
                 <SocialIcon url="mailto:kerryzhang12@gmail.com" />
             </div>
+            <div className="icon">
+                <SocialIcon url="https://soundcloud.com/kerryzhang12" />
+            </div>
         </div>
     )
 }
