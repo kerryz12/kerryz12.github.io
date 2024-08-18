@@ -1,5 +1,5 @@
 import "./header.css"
-import home from '../../assets/home-image.jpg'
+import coder from '../../assets/coder.png'
 import { TypeAnimation } from 'react-type-animation';
 //import { useState, Suspense } from 'react'
 
@@ -44,7 +44,8 @@ function Header() {
             </div>
 
             <div className="header-image">
-                <img src={home} alt="kerry zhang" />
+                {/* https://pngtree.com/freepng/developers-are-coding-programs-on-computers-programmers-are-analyzing-data_14867886.html */}
+                <img src={coder} alt="kerry zhang" />
             </div>
 
 {/*
