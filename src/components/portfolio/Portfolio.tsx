@@ -16,17 +16,15 @@ const Portfolio = () => {
             <div className="portfolio-container-1">
                 <div className="portfolio-container_group-1">
                     <Article url="" imgUrl={solid} date="January - August 2022" company="Solidigm" title="Firmware Engineer Coop" 
-                        body="Developed C++ firmware for overdose detection sensors,
-                        such as by modifying firmware state machine. Worked
-                        with and improved Travis CI process by implementing
-                        code linting and unit tests. Communicated feedback
-                        from clients and team while improving product solution. " 
+                        body="Developed C++ embedded software for overdose detection sensors, such as by modifying state machine, 
+                        and deployed changes through AWS. Worked with and improved Travis-CI process, implementing code linting 
+                        and unit tests in Linux development environment. Conducted onsite visits with clients, communicating
+                        feedback with team to improve product solution." 
                     />
                     <Article url="" imgUrl={solid} date="September - December 2022" company="Brave Technology" title="Firmware Engineer Coop" 
-                        body="Programmed firmware for solid state drives in C language, implementing technical specification. Made use
-                        of testing and formal development tools such as Jira
-                        and Git. Strengthened code comprehension and design
-                        skills while traversing large existing codebase." 
+                        body="Programmed firmware for solid state drives in C language, implementing technical specification. 
+                        Completed stories, stand-ups, and code reviews through Agile methodology. Strengthened code comprehension and design skills 
+                        while traversing extensive existing codebase, conducting manual testing to ensure functionality and lack of regressions." 
                     />
                 </div>
             </div>
@@ -39,25 +37,21 @@ const Portfolio = () => {
             <div className="portfolio-container-2">
                 <div className="portfolio-container_group-2">
                     <Article url="https://github.com/kerryz12/capstone2023_JY92" imgUrl={healthmonitor} date="September 2023 - April 2024" company = "Wearable Health Monitor" title="UBC" 
-                        body="Developing algorithms and wireless communication
-                        systems for wrist-wearable device monitoring hospital
-                        patient vital signs. Designing reliable, expandable code
-                        from scratch interfacing with Raspberry Pi and sensors." 
+                        body="Implemented algorithms and developed wireless communication system using TCP for wrist-wearable device monitoring hospital patient vital signs. 
+                        Designed reliable, expandable code from scratch interfacing with Raspberry Pi and sensors. Implemented backend with Flask endpoints for device to 
+                        wirelessly display data in user dashboard webapp." 
                     />
                     <Article url="" imgUrl={job_header} date="March - April 2023" company = "Robotic Claw Gripper" title="UBC" 
-                        body="Utilized sensor systems to design PID control system for
-                        robotic claw. Interfaced C firmware with mechanical design for automatic and reliable operation, engineering
-                        both systems to work optimally with one another." 
+                        body="Designed PID control system for robotic claw gripper able to grasp varying objects, utilizing various sensor systems such as optical sensor.
+                        Interfaced C firmware with mechanical design for automatic and reliable operation, engineering both systems to work optimally together." 
                     />
                     <Article url="https://github.com/kerryz12/nwHacks-2022" imgUrl={dbforum} date="January 2022" company = "DB Forum: Social Platform" title="nwHacks" 
-                        body="In 24 hours during nwHacks 2022 Hackathon, cooperatively implemented full-stack school-sorted forum website using Next.JS for front-end, and Java and MongoDB
-                        for back-end. Challenged problem-solving and software development skills while working under time limit" 
+                        body="Full-stack web forum allowing students from various schools to share posts and comments, using Next.JS for front-end, and Java with MongoDB for back-end.
+                        Challenged problem-solving and software development skills while working under 24-hour time limit." 
                     />
                     <Article url="https://github.com/kerryz12/nwHacks-2021" imgUrl={dbmanager} date="January 2021" company = "DB Manager: Assignment Tracker" title="nwHacks" 
-                        body="Created school assignment tracker application with
-                        team of four during nwHacks 2021 Hackathon in a 24-
-                        hour period. Use of Git and libraries such as Gson and
-                        JavaFX to collaboratively create Java GUI app." 
+                        body="Java application enabling students to track school assignments, built from scratch using OOP principles. Utilized libraries such as Gson and JavaFX to create
+                        GUI and implement local storage." 
                     />
                     <Article url="" imgUrl={job_header} date="October - November 2020" company = "Simple RISC Machine" title="UBC" 
                         body="Designed a RISC machine capable of executing ARMstyle instructions in Verilog. Enhanced debugging skills

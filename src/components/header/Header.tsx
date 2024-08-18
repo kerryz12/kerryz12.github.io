@@ -1,6 +1,13 @@
 import "./header.css"
 import home from '../../assets/home-image.jpg'
 import { TypeAnimation } from 'react-type-animation';
+//import { useState, Suspense } from 'react'
+
+{/*
+import { Model } from '../../components';
+import { Canvas } from '@react-three/fiber'
+import { OrbitControls } from '@react-three/drei'
+*/}
 
 const quotes = ["\"if you have a task to do, it’s better to do it than to live with the fear of it.\"",
                 "\"the best wisdom comes from the hardest struggle.\"",
@@ -39,6 +46,16 @@ function Header() {
             <div className="header-image">
                 <img src={home} alt="kerry zhang" />
             </div>
+
+{/*
+            <div className="model">
+                <Canvas camera = {{ fov: 75, position: [0, 2, 5] }}>
+                    <ambientLight />
+                    <OrbitControls />
+                    <Model />
+                </Canvas>
+            </div>
+*/}
         </div>
     )
 }

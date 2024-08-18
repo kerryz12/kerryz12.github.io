@@ -1,0 +1,283 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6703,
+      "max": [
+        1.025288701057434,
+        0.9899948835372925,
+        1.012599229812622
+      ],
+      "min": [
+        -0.9985874891281128,
+        -1.0538586378097534,
+        -0.9964712262153625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 80436,
+      "componentType": 5126,
+      "count": 6703,
+      "max": [
+        0.9999933242797852,
+        0.9999824166297913,
+        0.9999777674674988
+      ],
+      "min": [
+        -0.999984085559845,
+        -0.9999037981033325,
+        -0.9999879002571106
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 24261,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 160872,
+      "componentType": 5126,
+      "count": 13781,
+      "max": [
+        1.0970335006713867,
+        1.0697669982910156,
+        1.0754822492599487
+      ],
+      "min": [
+        -1.0605517625808716,
+        -1.1204441785812378,
+        -1.0305944681167603
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 326244,
+      "componentType": 5126,
+      "count": 13781,
+      "max": [
+        0.999993622303009,
+        0.9999889135360718,
+        0.9999838471412659
+      ],
+      "min": [
+        -0.9999841451644897,
+        -0.9999752044677734,
+        -0.9999885559082031
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 97044,
+      "componentType": 5125,
+      "count": 36801,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "tamminen (https://sketchfab.com/tamminen)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/mineral-cube-2f44574877094a53bc7f8e6ad5e31e5b",
+      "title": "Mineral Cube"
+    },
+    "generator": "Sketchfab-16.3.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 244248,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 491616,
+      "byteOffset": 244248,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 735864,
+      "uri": "cube.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular",
+    "KHR_materials_transmission"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.8579073764796235
+        }
+      },
+      "name": "dirt",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0693571372228666,
+          0.06183986432354881,
+          0.04809230754340993,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8091453231095561
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.8579073764796235
+        },
+        "KHR_materials_transmission": {
+          "transmissionFactor": 0.7272372639611855
+        }
+      },
+      "name": "crack",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5903541775065605,
+          0.29791286994279675,
+          0.8014945267390894,
+          0.27276273603881457
+        ],
+        "roughnessFactor": 0.3946678694639831
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "name": "Cube_0"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_4"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_5"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

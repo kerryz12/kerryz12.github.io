@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mineral Cube
+* source:	https://sketchfab.com/3d-models/mineral-cube-2f44574877094a53bc7f8e6ad5e31e5b
+* author:	tamminen (https://sketchfab.com/tamminen)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mineral Cube" (https://sketchfab.com/3d-models/mineral-cube-2f44574877094a53bc7f8e6ad5e31e5b) by tamminen (https://sketchfab.com/tamminen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
