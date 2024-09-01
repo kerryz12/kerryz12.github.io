@@ -5,7 +5,7 @@
     padding: 2rem;
     /*background: linear-gradient(90deg, rgba(7,0,120,1) 0%, rgba(9,9,121,1) 35%, rgba(0,112,135,1) 100%);*/
     /*background: radial-gradient(circle, rgb(224, 194, 154) 0%, rgba(161,184,123,1) 100%);(*/
-    background: rgba(161,184,123,1)
+    background: rgba(161,184,123,1);
 }
 
 .about-feature {
@@ -17,7 +17,8 @@
 }
 
 .about-feature .features-container__feature-text {
-    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-heading {
@@ -37,10 +38,12 @@
     max-width: 510px;
 }
 
-.about-container {
+.about-container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     
     margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }

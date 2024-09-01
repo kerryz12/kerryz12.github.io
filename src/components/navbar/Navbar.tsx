@@ -8,9 +8,9 @@ function Navbar() {
                     <p>kerry zhang</p>
                 </div>
                 <div className="navbar-links_container">
-                    <p><a href="#home">home</a></p>
-                    <p><a href="#about">about</a></p>
-                    <p><a href="#portfolio">portfolio</a></p>
+                    <p><a href="/">home</a></p>
+                    <p><a href="/about">about</a></p>
+                    <p><a href="/portfolio">portfolio</a></p>
                 </div>
             </div>
 
