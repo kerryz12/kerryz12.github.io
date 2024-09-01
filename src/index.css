@@ -12,5 +12,5 @@
   /*--color-text: #81AFDD;*/
   --color-text: #007087;
   --color-subtext: #FF8A71;
-  --color-box: radial-gradient(circle, rgba(161,184,123,1) 0%, rgba(227,165,84,1) 100%);
+  --color-box: rgba(161,184,123,1); /*radial-gradient(circle, rgba(161,184,123,1) 0%, rgba(227,165,84,1) 100%);*/
 }

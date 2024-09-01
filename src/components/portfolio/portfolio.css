@@ -52,6 +52,8 @@
     flex: 1;
 
     display: grid;
+    justify-content: center;
+    align-content: center;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
 }
@@ -60,6 +62,8 @@
     flex: 1;
 
     display: grid;
+    justify-content: center;
+    align-content: center;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
 }

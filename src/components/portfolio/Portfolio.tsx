@@ -1,5 +1,5 @@
 import "./portfolio.css"
-import { Article } from '../../components'
+import { Article, Work } from '../../components'
 import { job_header, solid, dbforum, dbmanager, healthmonitor } from './imports'
 
 const Portfolio = () => {
@@ -15,13 +15,13 @@ const Portfolio = () => {
             </div>
             <div className="portfolio-container-1">
                 <div className="portfolio-container_group-1">
-                    <Article url="" imgUrl={solid} date="January - August 2022" company="Solidigm" title="Firmware Engineer Coop" 
+                    <Work date="January - August 2022" company="Solidigm" title="Firmware Engineer Coop" 
                         body="Developed C++ embedded software for overdose detection sensors, such as by modifying state machine, 
                         and deployed changes through AWS. Worked with and improved Travis-CI process, implementing code linting 
                         and unit tests in Linux development environment. Conducted onsite visits with clients, communicating
                         feedback with team to improve product solution." 
                     />
-                    <Article url="" imgUrl={solid} date="September - December 2022" company="Brave Technology" title="Firmware Engineer Coop" 
+                    <Work date="September - December 2022" company="Brave Technology" title="Firmware Engineer Coop" 
                         body="Programmed firmware for solid state drives in C language, implementing technical specification. 
                         Completed stories, stand-ups, and code reviews through Agile methodology. Strengthened code comprehension and design skills 
                         while traversing extensive existing codebase, conducting manual testing to ensure functionality and lack of regressions." 
