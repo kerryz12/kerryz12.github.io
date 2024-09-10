@@ -11,15 +11,15 @@ import { OrbitControls } from '@react-three/drei'
 
 const quotes = ["\"if you have a task to do, it’s better to do it than to live with the fear of it.\"",
                 "\"the best wisdom comes from the hardest struggle.\"",
-                "\"a ship in a harbour is safe, but that is not what ships are built for.\""
+                "\"a ship in a harbour is safe, but that is not what ships are built for.\"",
                 ]
 const authors = ["-joe abercrombie", 
                  "-xavier rudd",
-                 "-john a. shedd"
+                 "-john a. shedd",
                 ]
-const timings = [3700,
-                 2500,
-                 3500
+const timings = [3900,
+                 2600,
+                 3600,
                 ]
 
 function Header() {
