@@ -1,13 +1,12 @@
 import "./Home.css";
-import { Header } from '../../components'
+import { Header } from "../../components";
 
 function Home() {
-    return (
-        <div className="Home">
-            <Header />
-        </div>
-    )
+  return (
+    <div className="Home">
+      <Header />
+    </div>
+  );
 }
 
 export default Home;
-
