@@ -6,6 +6,7 @@ import {
   dbmanager,
   healthmonitor,
   songoftheday,
+  guesstheword,
 } from "./imports";
 
 const Portfolio = () => {
@@ -45,6 +46,15 @@ const Portfolio = () => {
       </div>
       <div className="portfolio-container-2">
         <div className="portfolio-container_group-2">
+          <Article
+            url="https://guesstheworddaily.onrender.com/"
+            imgUrl={guesstheword}
+            date="October 2024"
+            company="Guess the Word"
+            title="Personal"
+            body="Full-stack web-app allowing users to guess a daily mystery word by asking yes or no questions.
+            Created modern and responsive frontend using TypeScript and React, along with Node Express backend to handle game functions."
+          />
           <Article
             url="https://songoftheday.onrender.com/"
             imgUrl={songoftheday}

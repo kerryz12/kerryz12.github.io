@@ -4,6 +4,7 @@ import dbforum from "../../assets/dbforum.png";
 import dbmanager from "../../assets/dbmanager.png";
 import healthmonitor from "../../assets/healthmonitor.png";
 import songoftheday from "../../assets/songoftheday.png";
+import guesstheword from "../../assets/guesstheword.png";
 
 export {
   job_header,
@@ -12,4 +13,5 @@ export {
   dbmanager,
   healthmonitor,
   songoftheday,
+  guesstheword,
 };
