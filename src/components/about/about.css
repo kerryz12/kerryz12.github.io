@@ -4,6 +4,7 @@
 
   padding: 2rem;
   background: var(--color-box);
+  border-radius: 25px;
 }
 
 .about-feature {
