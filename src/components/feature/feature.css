@@ -21,7 +21,7 @@
   margin-bottom: 0.5rem;
 
   letter-spacing: -0.04em;
-  /*color: #FFFFFF*/
+  /*color: var(--color-text)*/
   color: var(--color-text);
 }
 
@@ -46,5 +46,5 @@
   font-size: 21px;
   line-height: 24px;
   /*color: var(--color-text);*/
-  color: #ffffff;
+  color: var(--color-text);
 }
