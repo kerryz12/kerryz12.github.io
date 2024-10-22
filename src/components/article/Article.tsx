@@ -18,17 +18,15 @@ const Article = ({
   return (
     <div className="portfolio-container_article">
       <div className="portfolio-container_article-image">
-        <a href={url}>
+        <a href={url} target="_blank" rel="noopener noreferrer">
           <img src={imgUrl} alt="link to the project!" />
         </a>
       </div>
       <div className="portfolio-container_article-content">
-        <div>
-          <p>{date}</p>
-          <h2>{company}</h2>
-          <h3>{title}</h3>
-          <p>{body}</p>
-        </div>
+        <p className="date">{date}</p>
+        <h2 className="company">{company}</h2>
+        <h3 className="title">{title}</h3>
+        <p className="body">{body}</p>
       </div>
     </div>
   );

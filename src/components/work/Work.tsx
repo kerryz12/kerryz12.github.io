@@ -12,16 +12,14 @@ const Work = ({
   body: any;
 }) => {
   return (
-    <div className="portfolio-container_article">
-      <div className="portfolio-container_article-content">
-        <div>
-          <p>{date}</p>
-          <h2>{company}</h2>
-          <h3>{title}</h3>
-          <p>{body}</p>
-        </div>
+    <article className="work-container_article">
+      <div className="work-container_article-content">
+        <p className="date">{date}</p>
+        <h3 className="company">{company}</h3>
+        <h2 className="title">{title}</h2>
+        <p className="body">{body}</p>
       </div>
-    </div>
+    </article>
   );
 };
 

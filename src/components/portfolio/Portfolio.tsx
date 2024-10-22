@@ -52,8 +52,13 @@ const Portfolio = () => {
             date="October 2024"
             company="Guess the Word"
             title="Personal"
-            body="Full-stack web-app allowing users to guess a daily mystery word by asking yes or no questions.
-            Created modern and responsive frontend using TypeScript and React, along with Node Express backend to handle game functions."
+            body="Full-stack web-app where users attempt to guess a
+                  mystery word by asking yes or no questions.
+                  Designed modern and responsive UI with theme toggle using TypeScript, React, and TailwindCSS.
+                  Created RESTful API to handle daily word refresh, user
+                  guesses, login, and leaderboard functionality using
+                  Node, Express, and a PostgresQL database.
+                  Implemented generative AI responses using Groq API."
           />
           <Article
             url="https://songoftheday.onrender.com/"
@@ -61,10 +66,15 @@ const Portfolio = () => {
             date="July 2024 - September 2024"
             company="Song of the Day"
             title="Personal"
-            body="Full-stack web-app allowing users to share a song they enjoy with others, every day. 
-            Created system from scratch using TypeScript and React for frontend, and Node Express with PostgresQL for backend, implementing database with CRUD API. 
-            Implemented features such as user posts, comments, profile, embedded song search, and more.
-            Deployed web-app on Render using backend to serve static frontend assets."
+            body="Full-stack social media web-app allowing users to
+                  share a song they enjoy with others, every day.
+                  Created application from scratch using TypeScript and
+                  React for frontend, and Node Express with PostgresQL
+                  for backend, designing database with CRUD API.
+                  Implemented features such as user posts, comments,
+                  profiles, embedded Spotify song search, and more.
+                  Deployed database on Supabase and web-app on
+                  Render, with backend serving static frontend assets."
           />
           <Article
             url="https://github.com/kerryz12/capstone2023_JY92"
