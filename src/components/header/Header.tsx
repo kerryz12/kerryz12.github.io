@@ -19,40 +19,32 @@ function Header() {
     { command: "whoami", output: "visitor@personal-website:~$" },
     {
       command: "cat about.txt",
-      output: `
-Hi! I'm Kerry Zhang.
+      output: `Hi! I'm Kerry Zhang.
 I'm a developer passionate about creating great software.
 Currently working on exciting web-app projects!
-
 `,
     },
     {
       command: "ls skills/",
-      output: `
-Languages:    C/C++  JavaScript/TypeScript  Java  Python  SQL  Verilog/SystemVerilog  Assembly  HTML/CSS
-
+      output: `Languages:    C/C++  JavaScript/TypeScript  Java  Python  SQL  Verilog/SystemVerilog  Assembly  HTML/CSS
 `,
     },
     {
       command: "cat contact.txt",
-      output: `
-Email:    kerryzhang12@gmail.com
+      output: `Email:    kerryzhang12@gmail.com
 GitHub:   github.com/kerryz12
 LinkedIn: https://www.linkedin.com/in/kerry-zhang-ee/
-
 `,
     },
   ];
 
-  const getHelpOutput = () => `
-Available commands:
+  const getHelpOutput = () => `Available commands:
 - whoami: Display user information
 - cat about.txt: Show about me
 - ls skills/: List my skills
 - cat contact.txt: Show contact information
 - clear: Clear the terminal
 - help: Show this help message
-
 `;
 
   const handleInput = (terminalInput: string) => {
@@ -75,10 +67,12 @@ Available commands:
 
     setTerminalLineData((prev) => [
       ...prev,
+      <TerminalOutput key={`newline-before-${Date.now()}`} />,
       <TerminalOutput
         key={`input-${Date.now()}`}
       >{`$ ${terminalInput}`}</TerminalOutput>,
       <TerminalOutput key={`output-${Date.now()}`}>{response}</TerminalOutput>,
+      <TerminalOutput key={`newline-after-${Date.now()}`} />,
     ]);
   };
 
