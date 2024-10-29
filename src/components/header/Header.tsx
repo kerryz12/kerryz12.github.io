@@ -7,9 +7,15 @@ const quotes = [
   '"if you have a task to do, it’s better to do it than to live with the fear of it."',
   '"the best wisdom comes from the hardest struggle."',
   '"a ship in a harbour is safe, but that is not what ships are built for."',
+  '"comparison is the thief of joy.',
 ];
-const authors = ["-joe abercrombie", "-xavier rudd", "-john a. shedd"];
-const timings = [3900, 2600, 3600];
+const authors = [
+  "- joe abercrombie",
+  "- xavier rudd",
+  "- john a. shedd",
+  "- teddy roosevelt",
+];
+const timings = [4100, 2700, 3600, 1900];
 
 function Header() {
   const [terminalLineData, setTerminalLineData] = useState<ReactElement[]>([]);
@@ -67,7 +73,6 @@ LinkedIn: https://www.linkedin.com/in/kerry-zhang-ee/
 
     setTerminalLineData((prev) => [
       ...prev,
-      <TerminalOutput key={`newline-before-${Date.now()}`} />,
       <TerminalOutput
         key={`input-${Date.now()}`}
       >{`$ ${terminalInput}`}</TerminalOutput>,
