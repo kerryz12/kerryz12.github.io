@@ -89,7 +89,7 @@ LinkedIn: https://www.linkedin.com/in/kerry-zhang-ee/
 
   useEffect(() => {
     executeCommand("cat about.txt", 100);
-    executeCommand("help", 500);
+    executeCommand("help", 1100);
   }, []);
 
   return (
