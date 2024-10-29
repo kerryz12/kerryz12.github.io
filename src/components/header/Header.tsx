@@ -7,7 +7,7 @@ const quotes = [
   '"if you have a task to do, it’s better to do it than to live with the fear of it."',
   '"the best wisdom comes from the hardest struggle."',
   '"a ship in a harbour is safe, but that is not what ships are built for."',
-  '"comparison is the thief of joy.',
+  '"comparison is the thief of joy."',
 ];
 const authors = [
   "- joe abercrombie",
