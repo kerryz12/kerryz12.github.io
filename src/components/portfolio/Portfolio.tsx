@@ -22,21 +22,23 @@ const Portfolio = () => {
             date="January 2022 - August 2022"
             company="Solidigm"
             title="Firmware Engineer Co-op"
-            body="Developed C++ embedded software for overdose detection sensors. 
-                        Improved product solution by implementing features and improvements in state machine logic, alert functionality, and more.
-                        Added jobs to Travis-CI deployment pipeline increasing robustness of production code, including code linting and unit tests.
-                        Created C++ mock libraries allowing device firmware to be simulated during software testing.
-                        Conducted onsite visits with clients, and communicated feedback with team to ensure functionality."
+            body="
+Developed robust C++ embedded software for overdose detection sensors, enhancing system reliability and early intervention capabilities by improving state machine and alert functionality logic.
+Enhanced Travis CI/CD pipeline by integrating and configuring jobs for clang-tidy code linting and GTest unit testing, increasing production code quality.
+Created custom C++ mock libraries to simulate device firmware, reducing hardware dependency during development cycle and improving test coverage by 30%.
+Conducted onsite visits with clients, and implemented feedback with team to ensure alignment with client needs.
+"
           />
           <Work
             date="September 2022 - December 2022"
             company="Brave Technology"
             title="Firmware Engineer Co-op"
-            body="Programmed embedded software for solid state drives in C language, including modification of existing functionality and implementation of new features.
-                        Developed correct and well-documented code for device firmware in order to satisfy updated technical specification requirements.
-                        Completed stories, stand-ups, and code reviews through Agile methodology.
-                        Strengthened code comprehension and design skills while traversing extensive existing codebase.
-                        Conducted manual testing to ensure functionality and lack of regressions."
+            body="
+Programmed C embedded software for solid state drives, delivering correct and well-documented code ensuring compliance with updated technical specifications.
+Strengthened code comprehension and design skills while modifying extensive and complex existing codebase.
+Completed stories, stand-ups, and code reviews through Agile methodology.
+Designed and executed tests with internal tools successfully verifying functionality of changes and preventing regressions, and collaborated with internal teams to verify accurate interpretation of product function.
+"
           />
         </div>
       </div>
@@ -52,13 +54,11 @@ const Portfolio = () => {
             date="October 2024"
             company="Guess the Word"
             title="Personal"
-            body="Full-stack web-app where users attempt to guess a
-                  mystery word by asking yes or no questions.
-                  Designed modern and responsive UI with theme toggle using TypeScript, React, and TailwindCSS.
-                  Created RESTful API to handle daily word refresh, user
-                  guesses, login, and leaderboard functionality using
-                  Node, Express, and a PostgresQL database.
-                  Implemented generative AI responses using Groq API."
+            body="
+Full-stack web-app where users attempt to guess a mystery word by asking yes or no questions.
+Designed modern and responsive UI with theme toggle using TypeScript, React, and TailwindCSS.
+Created RESTful API to handle daily word refresh, user guesses, login, and leaderboard functionality using Node, Express, and PostgreSQL database, and implemented generative AI responses using Groq API.
+"
           />
           <Article
             url="https://songoftheday.onrender.com/"
@@ -66,15 +66,11 @@ const Portfolio = () => {
             date="July 2024 - September 2024"
             company="Song of the Day"
             title="Personal"
-            body="Full-stack social media web-app allowing users to
-                  share a song they enjoy with others, every day.
-                  Created application from scratch using TypeScript and
-                  React for frontend, and Node Express with PostgresQL
-                  for backend, designing database with CRUD API.
-                  Implemented features such as user posts, comments,
-                  profiles, embedded Spotify song search, and more.
-                  Deployed database on Supabase and web-app on
-                  Render, with backend serving static frontend assets."
+            body="
+Full-stack social media web-app allowing users to share a song they enjoy with others, every day.
+Built application from scratch using TypeScript and React for frontend, and Node, Express and PostgreSQL for CRUD API backend, designing features such as daily user posts, comments, profiles, friends, and search.
+Deployed database using Supabase, and web-app using DigitalOcean droplet with Docker container.
+"
           />
           <Article
             url="https://github.com/kerryz12/capstone2023_JY92"
@@ -82,9 +78,11 @@ const Portfolio = () => {
             date="September 2023 - April 2024"
             company="Wearable Health Monitor"
             title="UBC"
-            body="Implemented algorithms and developed wireless communication system using TCP for wrist-wearable device monitoring hospital patient vital signs. 
-                        Designed reliable, expandable code from scratch interfacing with Raspberry Pi and sensors. Implemented backend with Flask endpoints for device to 
-                        wirelessly display data in user dashboard webapp."
+            body="
+Designed reliable and expandable MicroPython firmware for wrist-wearable device monitoring hospital patient vital signs, interfacing with Raspberry Pi and sensors, and implemented wireless communication using TCP.
+Created Python backend with Flask endpoints allowing device to wirelessly transmit data to server.
+Displayed data in custom user dashboard web-app built using JavaScript and Vue.
+"
           />
           <Article
             url=""

@@ -1,7 +1,7 @@
 .portfolio-container_article {
   width: 100%;
   background: var(--color-box);
-  border-radius: 15px;
+  border-radius: 25px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;

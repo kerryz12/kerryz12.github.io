@@ -1,6 +1,7 @@
-import "./header.css";
-import coder from "../../assets/coder.png";
+import { useState, useEffect, ReactElement } from "react";
 import { TypeAnimation } from "react-type-animation";
+import Terminal, { ColorMode, TerminalOutput } from "react-terminal-ui";
+import "./header.css";
 
 const quotes = [
   '"if you have a task to do, it’s better to do it than to live with the fear of it."',
@@ -11,7 +12,86 @@ const authors = ["-joe abercrombie", "-xavier rudd", "-john a. shedd"];
 const timings = [3900, 2600, 3600];
 
 function Header() {
+  const [terminalLineData, setTerminalLineData] = useState<ReactElement[]>([]);
   var chosen = Math.floor(Math.random() * quotes.length);
+
+  const terminalLines = [
+    { command: "whoami", output: "visitor@personal-website:~$" },
+    {
+      command: "cat about.txt",
+      output: `
+Hi! I'm Kerry Zhang.
+I'm a developer passionate about creating great software.
+Currently working on exciting web-app projects!
+
+`,
+    },
+    {
+      command: "ls skills/",
+      output: `
+Languages:    C/C++  JavaScript/TypeScript  Java  Python  SQL  Verilog/SystemVerilog  Assembly  HTML/CSS
+
+`,
+    },
+    {
+      command: "cat contact.txt",
+      output: `
+Email:    kerryzhang12@gmail.com
+GitHub:   github.com/kerryz12
+LinkedIn: https://www.linkedin.com/in/kerry-zhang-ee/
+
+`,
+    },
+  ];
+
+  const getHelpOutput = () => `
+Available commands:
+- whoami: Display user information
+- cat about.txt: Show about me
+- ls skills/: List my skills
+- cat contact.txt: Show contact information
+- clear: Clear the terminal
+- help: Show this help message
+
+`;
+
+  const handleInput = (terminalInput: string) => {
+    const inputLower = terminalInput.toLowerCase().trim();
+    let response = "Command not found. Try 'help' for available commands.";
+
+    if (inputLower === "help") {
+      response = getHelpOutput();
+    } else if (inputLower === "clear") {
+      setTerminalLineData([]);
+      return;
+    } else {
+      const matchedCommand = terminalLines.find(
+        (line) => line.command === inputLower
+      );
+      if (matchedCommand) {
+        response = matchedCommand.output;
+      }
+    }
+
+    setTerminalLineData((prev) => [
+      ...prev,
+      <TerminalOutput
+        key={`input-${Date.now()}`}
+      >{`$ ${terminalInput}`}</TerminalOutput>,
+      <TerminalOutput key={`output-${Date.now()}`}>{response}</TerminalOutput>,
+    ]);
+  };
+
+  const executeCommand = (command: string, delay: number) => {
+    setTimeout(() => {
+      handleInput(command);
+    }, delay);
+  };
+
+  useEffect(() => {
+    executeCommand("cat about.txt", 100);
+    executeCommand("help", 500);
+  }, []);
 
   return (
     <div className="header section__padding" id="home">
@@ -27,9 +107,14 @@ function Header() {
         </p>
       </div>
 
-      <div className="header-image">
-        {/* https://pngtree.com/freepng/developers-are-coding-programs-on-computers-programmers-are-analyzing-data_14867886.html */}
-        <img src={coder} alt="kerry zhang" />
+      <div className="header-terminal">
+        <Terminal
+          name="Kerry's Terminal"
+          colorMode={ColorMode.Dark}
+          onInput={handleInput}
+        >
+          {terminalLineData}
+        </Terminal>
       </div>
     </div>
   );
