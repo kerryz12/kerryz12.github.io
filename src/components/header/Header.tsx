@@ -46,9 +46,9 @@ LinkedIn: https://www.linkedin.com/in/kerry-zhang-ee/
 
   const getHelpOutput = () => `Available commands:
 - whoami: Display user information
-- cat about.txt: Show about me
-- ls skills/: List my skills
-- cat contact.txt: Show contact information
+- cat about.txt: About me
+- ls skills/: My skills
+- cat contact.txt: My contact information
 - clear: Clear the terminal
 - help: Show this help message
 `;
