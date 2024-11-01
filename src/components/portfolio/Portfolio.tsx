@@ -124,7 +124,7 @@ const Portfolio = () => {
             company="Simple RISC Machine"
             title="UBC"
             body={[
-              `Designed a RISC machine capable of executing ARMstyle instructions in Verilog.`,
+              `Designed a RISC machine capable of executing ARM style instructions in Verilog.`,
               `Enhanced debugging skills by debugging interactions between registers, CPU, RAM and other components using ModelSim.`,
             ]}
           />

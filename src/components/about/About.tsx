@@ -7,7 +7,7 @@ function About() {
       <div className="about-feature">
         <Feature
           title="about me"
-          text="I'm an electrical engineering graduate from UBC who loves both software and firmware programming! Whether it's designing code for an embedded system, creating different kinds of applications, solving leetcode problems, or even creating this website, the capabilities of technology always excite me. To this end, I'm always trying to learn new tools and improve my skills!"
+          text="I'm an electrical engineering graduate from UBC with an interest and passion for software development! Whether it's designing code for an embedded system, creating different kinds of web applications, solving leetcode problems, or even creating this website, the capabilities of technology always excite me. To this end, I'm always trying to learn new tools and improve my skills!"
         />
       </div>
       <div className="about-container">
@@ -21,7 +21,7 @@ function About() {
         />
         <Feature
           title="interests"
-          text="In my free time, I love powerlifting, creating music, playing spikeball and soccer with my friends, trying to come up with fashionable new outfits, and solving geography quizes."
+          text="In my free time, I love powerlifting, creating music, playing soccer with my friends, trying to come up with fashionable new outfits, and solving geography quizes."
         />
       </div>
     </div>
