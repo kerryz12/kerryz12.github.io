@@ -6,3 +6,4 @@ export { default as Footer } from "./footer/Footer";
 export { default as Portfolio } from "./portfolio/Portfolio";
 export { default as Article } from "./article/Article";
 export { default as Work } from "./work/Work";
+export { default as BulletList } from "./bulletlist/BulletList";

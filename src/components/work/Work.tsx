@@ -1,5 +1,7 @@
 import "./work.css";
 
+import { BulletList } from "..";
+
 const Work = ({
   date,
   company,
@@ -17,7 +19,7 @@ const Work = ({
         <p className="date">{date}</p>
         <h3 className="company">{company}</h3>
         <h2 className="title">{title}</h2>
-        <p className="body">{body}</p>
+        <BulletList points={body} />
       </div>
     </article>
   );

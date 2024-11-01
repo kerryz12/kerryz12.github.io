@@ -1,5 +1,7 @@
 import "./article.css";
 
+import { BulletList } from "..";
+
 const Article = ({
   url,
   imgUrl,
@@ -26,7 +28,7 @@ const Article = ({
         <p className="date">{date}</p>
         <h2 className="company">{company}</h2>
         <h3 className="title">{title}</h3>
-        <p className="body">{body}</p>
+        <BulletList points={body} />
       </div>
     </div>
   );
