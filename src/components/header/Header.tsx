@@ -39,7 +39,7 @@ Currently working on exciting web-app projects!
       command: "cat contact.txt",
       output: `Email:    kerryzhang12@gmail.com
 GitHub:   github.com/kerryz12
-LinkedIn: https://www.linkedin.com/in/kerry-zhang-ee/
+LinkedIn: linkedin.com/in/kerry-zhang-ee/
 `,
     },
   ];
